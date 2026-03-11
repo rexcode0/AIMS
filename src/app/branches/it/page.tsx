@@ -46,11 +46,11 @@ const itData = {
       // videoUrl: "https://PROJECT.supabase.co/storage/v1/object/public/faculty-videos/rao_intro.mp4"
     },
     {
-      name: "Dr. Vikram Tiwari",
-      designation: "Associate Professor",
-      subjects: ["Cybersecurity", "Ethical Hacking", "Penetration Testing"],
+      name: "Ashok Kumar",
+      designation: "Lecturer",
+      subject:["Internet Of Things", "Operating Systems", "Computer System And Organization", "Data Mining and Warehouse"],
       experience: "13 years",
-      initials: "VT",
+      initials: "AK",
       photoPath: "/assets/faculty/tiwari.jpg",
     },
     {
@@ -61,44 +61,13 @@ const itData = {
       initials: "NG",
       photoPath: "/assets/faculty/gupta.jpg",
     },
-    {
-      name: "Dr. Rakesh Shah",
-      designation: "Professor",
-      subjects: ["Software Engineering", "Agile", "DevOps", "Docker"],
-      experience: "14 years",
-      initials: "RS",
-      photoPath: "/assets/faculty/shah.jpg",
-    },
-    {
-      name: "Prof. Deepa Iyer",
-      designation: "Associate Professor",
-      subjects: ["Mobile App Development", "Android", "React Native"],
-      experience: "10 years",
-      initials: "DI",
-      photoPath: "/assets/faculty/iyer.jpg",
-    },
-    {
-      name: "Prof. Arjun Kulkarni",
-      designation: "Assistant Professor",
-      subjects: ["IoT", "Raspberry Pi", "MQTT", "Smart Systems"],
-      experience: "6 years",
-      initials: "AK",
-      photoPath: "/assets/faculty/kulkarni.jpg",
-    },
   ],
   labs: [
-    { name: "Networking Lab", capacity: 20, description: "Cisco routers, switches, firewalls, VLAN setup", available: true },
-    { name: "Cloud Computing Lab", capacity: 30, description: "AWS/Azure sandboxes, Kubernetes clusters, Docker", available: true },
-    { name: "Security Operations Lab", capacity: 15, description: "SIEM tools, IDS/IPS, vulnerability scanners", available: false },
-    { name: "IT Project Lab", capacity: 35, description: "Full dev environment, GitHub integration, Agile boards", available: true },
+    { name: "IT LAB", capacity:23, description: "Intel i5 workstations, Visual Studio, IntelliJ IDEA, Turbo C", available: true },
+    { name: "IOT LAB", capacity: 20, description: "Iot Kit, Rapberry, Esp's, 3d Printer, Mechanical Arm", available: false },
   ],
   achievements: [
-    "ISO 9001:2015 Certified IT Department",
-    "Best IT Department Award — State Technical University 2024",
-    "Active Cisco Networking Academy Chapter",
-    "AWS Academy Partnership — Cloud curriculum integration",
-    "95% placement rate with top MNCs (TCS, Infosys, Wipro, Accenture)",
-    "Annual IT Symposium 'INNOTECH' attracting 500+ participants",
+    "100% placement over the past few years",,
   ],
 };
 
