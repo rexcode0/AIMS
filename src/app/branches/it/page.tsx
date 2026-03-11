@@ -20,30 +20,27 @@ const itData = {
     { label: "Years of Excellence", value: "18+" },
   ],
   programs: [
-    "B.E. Information Technology",
-    "M.E. Information Technology",
+    
     "Diploma in IT",
-    "Certificate: Cloud Computing (AWS/Azure)",
-    "Certificate: Ethical Hacking",
-    "Certificate: Full-Stack Development",
+    
   ],
   hod: {
-    name: "Prof. Sunita Rao",
+    name: "Jagdish Chandra Pandey",
     designation: "Professor & Head of Department — IT",
-    bio: "Prof. Sunita Rao holds an M.Tech in Information Technology from NIT Trichy and brings 16+ years of teaching and research experience. She specializes in Database Systems, Cloud Computing, and Distributed Systems. Under her guidance, the IT department secured AWS Academy partnership status and consistently achieves a 95%+ placement rate with top MNCs.",
+    bio: "Jagdish Chandra Pandey holds an M.Tech in Information Technology and brings 16+ years of teaching and research experience. He specializes in Database Systems, Cloud Computing, and Distributed Systems. Under her guidance, .",
     initials: "SR",
     // TODO: Replace with /assets/faculty/rao.jpg
     photoPath: "/assets/faculty/rao.jpg",
-    cabin: "Room 201, 2nd Floor",
-    officeHours: "Mon–Fri, 11:00 AM – 1:00 PM",
+    cabin: "Right-hand side from the entrance, Ground Floor, Academic IT Block",
+    officeHours: "Mon–Sat, 10:00 AM – 5:00 PM",
   },
   faculty: [
     {
-      name: "Prof. Sunita Rao",
-      designation: "Professor & HOD",
-      subjects: ["Database Systems", "Cloud Computing", "AWS"],
+      name: "Neha Bora",
+      designation: "Lecturer",
+      subjects: ["Inernet and web technology", "Compuet hardware and systems", "Eplybility Skills"],
       experience: "16 years",
-      initials: "SR",
+      initials: "NB",
       photoPath: "/assets/faculty/rao.jpg",
       // TODO: Replace with Supabase Storage URL
       // videoUrl: "https://PROJECT.supabase.co/storage/v1/object/public/faculty-videos/rao_intro.mp4"

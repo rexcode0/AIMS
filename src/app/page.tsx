@@ -327,16 +327,14 @@ export default function HomePage() {
                 environment.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                AIMS digitizes the entire infrastructure — from room bookings and
-                lab availability to faculty schedules and student resources —
+                AIMS digitizes the entire infrastructure —faculty schedules and student resources —
                 ensuring smooth day-to-day academic operations.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { icon: Building2, label: "4 Floors" },
-                  { icon: Users, label: "1,160+ Students" },
-                  { icon: Award, label: "NAAC Accredited" },
-                  { icon: FlaskConical, label: "12 Labs" },
+                  { icon: Building2, label: "2 Floors" },
+                  { icon: Users, label: "350+ Students" },
+                  { icon: FlaskConical, label: "7 Labs" },
                 ].map(({ icon: Icon, label }) => (
                   <div
                     key={label}
@@ -392,8 +390,7 @@ export default function HomePage() {
             <SectionLabel>Departments</SectionLabel>
             <h2 className="text-4xl font-bold text-foreground">Engineering Branches</h2>
             <p className="text-muted-foreground mt-3 max-w-xl mx-auto">
-              Three specialized departments offering comprehensive undergraduate and
-              postgraduate engineering programs.
+              Three specialized departments offering comprehensive diploma engineering programs.
             </p>
           </motion.div>
 
