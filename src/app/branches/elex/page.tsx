@@ -30,7 +30,7 @@ const elexData = {
     initials: "MP",
     // TODO: Replace with /assets/faculty/patel.jpg
     photoPath: "/assets/faculty/patel.jpg",
-    cabin: "From the entrance, take the left staircase and reach in front of the cabin, 1st Floor, Academic IT Block
+    cabin: "From the entrance, take the left staircase and reach in front of the cabin, 1st Floor, Academic IT Block.",
   },
   faculty: [
     {
