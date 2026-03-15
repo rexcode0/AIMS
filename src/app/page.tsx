@@ -197,13 +197,26 @@ export default function HomePage() {
       <section
         className="relative min-h-screen flex items-center overflow-hidden aims-grid-bg"
       >
-        {/* Background Image Placeholder & Overlays */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/10 z-[-1]" />
-        <div className="absolute inset-0 aims-hero-overlay z-[2]" />
+        {/* Background Video */}
+        <video
+          className="absolute inset-0 w-full h-full object-cover z-0"
+          src="/assets/college/it_block.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+
+        {/* Translucent dark overlay over video */}
+        <div className="absolute inset-0 bg-black/55 z-[1]" />
+
+        {/* Gradient & grid overlays */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/15 z-[2]" />
+        <div className="absolute inset-0 aims-hero-overlay z-[3]" />
 
         {/* Decorative circles */}
-        <div className="absolute -top-32 -right-32 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl" />
-        <div className="absolute -bottom-32 -left-32 w-[500px] h-[500px] rounded-full bg-accent/15 blur-3xl" />
+        <div className="absolute -top-32 -right-32 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl z-[2]" />
+        <div className="absolute -bottom-32 -left-32 w-[500px] h-[500px] rounded-full bg-accent/15 blur-3xl z-[2]" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 pt-48">
           <motion.div
@@ -341,7 +354,7 @@ export default function HomePage() {
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-muted border border-border shadow-2xl relative group">
                 
-                <img src="/assets/college/it_block.mp4" alt="IT Block" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <img src="/assets/college/it_block.jpeg" alt="IT Block" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                
                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
                 <div className="absolute bottom-6 left-6 right-6">
